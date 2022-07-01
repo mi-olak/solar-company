@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .first-page {
-  font-family: "League Spartan", sans-serif;
   background-image: url(images/sky-solar.jfif);
   background-position: center;
   background-repeat: no-repeat;
@@ -100,14 +99,14 @@ button:hover {
   color: yellowgreen;
 }
 .sub-bar span:hover {
-    cursor: pointer;
-    color:rgb(122, 172, 46);
+  cursor: pointer;
+  color: rgb(122, 172, 46);
 }
 .second-page {
   display: flex;
   flex-direction: row;
   margin: 3% 10%;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 .sec-paragraph {
   width: 50%;
@@ -188,133 +187,276 @@ button:hover {
   color: black;
 }
 .fourth-page {
-    padding: 3%;
+  padding: 3%;
 }
 .fourth-sub h4 {
-    text-align: center;
-    font-size: 2.5rem;
-    text-transform: capitalize;
-    padding-bottom: 2%;
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  padding-bottom: 2%;
 }
 .fourth-line {
-    margin: 0% 42%;
-    padding-bottom: 2%;
+  margin: 0% 42%;
+  padding-bottom: 2%;
 }
 .fourth-sub p {
-    margin: 0% 20%;
-    padding: 2%;
-    font-size: 1.1rem;
-    text-transform:capitalize;
-    color: darkgrey;
+  margin: 0% 20%;
+  padding: 2%;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color: darkgrey;
 }
 .fourth-pics {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 .fourth-pics div {
-    width: 33%;
+  width: 33%;
 }
-.image-one img, .image-two img, .image-three img {
-    width: 100%;
-    height: auto;
-    padding: 2%;
+.image-one img,
+.image-two img,
+.image-three img {
+  width: 100%;
+  height: auto;
+  padding: 2%;
 }
-.image-one h5, .image-two h5, .image-three h5 {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.2rem;
-    color: green;
-    cursor: pointer;
+.image-one h5,
+.image-two h5,
+.image-three h5 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2rem;
+  color: green;
+  cursor: pointer;
 }
 .fourth-button {
-    padding: 2%;
-    margin: 1% 31%;
-    text-align: center;
-    cursor: pointer;
+  padding: 2%;
+  margin: 1% 31%;
+  text-align: center;
+  cursor: pointer;
 }
 .fifth-page h3 {
-    text-align: center;
-    font-size: 1.9rem;
-    text-transform: capitalize;
-    padding-bottom: 3%;
+  text-align: center;
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  padding-bottom: 3%;
 }
 .tabs {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
-.tab-one, .tab-two, .tab-three, .tab-four {
-    text-align: center;
-    width: 25%;
-    margin: 1%;
-    background-color: rgb(247, 242, 242);
+.tab-one,
+.tab-two,
+.tab-three,
+.tab-four {
+  text-align: center;
+  width: 25%;
+  margin: 1%;
+  background-color: rgb(247, 242, 242);
 }
-.tab-one h4,.tab-two h4, .tab-three h4, .tab-four h4 {
-    background-color: green;
-    padding: 5%;
-    text-transform: uppercase;
-    font-size: 2rem;
+.tab-one h4,
+.tab-two h4,
+.tab-three h4,
+.tab-four h4 {
+  background-color: green;
+  padding: 5%;
+  text-transform: uppercase;
+  font-size: 2rem;
 }
-.tab-one h4:hover,.tab-two h4:hover, .tab-three h4:hover, .tab-four h4:hover {
-    cursor: pointer;
-    color: white;
-    background-color: rgb(122, 172, 46);
+.tab-one h4:hover,
+.tab-two h4:hover,
+.tab-three h4:hover,
+.tab-four h4:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(122, 172, 46);
 }
-.tab-one p,.tab-two p, .tab-three p, .tab-four p {
-    padding: 5%;
-    font-size: 2rem;
+.tab-one p,
+.tab-two p,
+.tab-three p,
+.tab-four p {
+  padding: 5%;
+  font-size: 2rem;
 }
 .tabs ol li {
-    list-style-type: none;
-    text-transform: capitalize;
-    padding: 4%;
+  list-style-type: none;
+  text-transform: capitalize;
+  padding: 4%;
 }
 .fifth-nav {
-    background-color: green;
-    padding: 3%;
-    text-transform: capitalize;
-    text-align: center;
-    color: white;
-    margin-top: 3%;
+  background-color: green;
+  padding: 3%;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  margin-top: 3%;
 }
 .fifth-nav span {
-    color: greenyellow;
+  color: greenyellow;
 }
 .footer {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    background-color: black;
-    margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: black;
+  margin-top: 10%;
 }
-.about-us, .gallery, .contact-us, .newsletter {
-    width: 25%;
-    margin: 4% 0%;
-    padding: 2%;
+.about-us,
+.gallery,
+.contact-us,
+.newsletter {
+  width: 25%;
+  margin: 4% 0%;
+  padding: 2%;
 }
 .imagess {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .imagess img {
-    width: 25%;
+  width: 25%;
 }
 .footer h3 {
-    text-transform: capitalize;
-    padding: 5% 0%;
-    font-size: 2rem;
+  text-transform: capitalize;
+  padding: 5% 0%;
+  font-size: 2rem;
 }
 .contact-us p {
-    text-transform: capitalize;
-    padding-top: 7%;
+  text-transform: capitalize;
+  padding-top: 7%;
 }
 .newsletter p {
-    padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 .newsletter input {
+  width: 100%;
+  padding: 3%;
+}
+@media (max-width: 770px) {
+  body {
+    width: 100%;
+  }
+  .main-nav {
+    display: none;
+  }
+  .main {
+    width: 100%;
+  }
+  .main img {
+    display: none;
+  }
+  .homeP {
+    margin: 0 5%;
+  }
+  .homeP p {
+    font-size: 1.1rem;
+  }
+  .homeP button {
+    margin-bottom: 15%;
+  }
+  .third-page,
+  .tabs,
+  .fourth-page,
+  .fourth-pics,
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-bar p {
+    font-size: 1rem;
+    padding: 6% 0%;
+  }
+  .second-page {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+  }
+  .sec-paragraph {
+    width: 100%;
+    padding: 0% 4%;
+  }
+  .sec-paragraph h2 {
+    font-size: 1.5rem;
+    margin-top: 15%;
+  }
+  .sec-picture {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  .sec-picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .fourth-page div {
+    width: 100%;
+  }
+  .fourth-page h4 {
+    font-size: 1.6rem;
+    margin-top: 10%;
+  }
+  .fourth-page p {
+    margin: 1%;
+    font-size: 0.9rem;
+  }
+  .fourth-line {
+    margin: 0%;
+    margin-bottom: 5%;
+  }
+  .fourth-pics img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .image-one,
+  .image-two,
+  .image-three {
+    width: 100%;
+    margin: 0% 2%;
+  }
+  .fourth-button {
+    margin: 2%;
+    padding: 2%;
+  }
+  .tab-one,
+  .tab-two,
+  .tab-three,
+  .tab-four {
+    width: 100%;
+    margin: 10% 0%;
+  }
+.tabs {
+    margin: 3% 10%;
+}
+.fifth-nav p {
+    padding: 8% 4%;
+}
+.about-us,
+.gallery,
+.contact-us,
+.newsletter {
     width: 100%;
     padding: 3%;
 }
+.gallery img {
+    display: inline;
+}
+.newsletter input {
+    width: 50%;
+}
+}
+
+
+
+
+
+
+
+
+
 
 
 

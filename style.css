@@ -186,6 +186,23 @@ button:hover {
   text-align: center;
   color: black;
 }
+.imgs-one,
+.imgs-two,
+.imgs-three,
+.imgs-four {
+  text-align: center;
+}
+.imgs-one img,
+.imgs-two img,
+.imgs-three img,
+.imgs-four img {
+  width: 25%;
+  text-align: center;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 2%;
+}
 .fourth-page {
   padding: 3%;
 }
@@ -428,41 +445,42 @@ button:hover {
     width: 100%;
     margin: 10% 0%;
   }
-.tabs {
+  .tabs {
     margin: 3% 10%;
-}
-.fifth-nav p {
+  }
+  .fifth-nav p {
     padding: 8% 4%;
-}
-.about-us,
-.gallery,
-.contact-us,
-.newsletter {
+  }
+  .about-us,
+  .gallery,
+  .contact-us,
+  .newsletter {
     width: 100%;
     padding: 3%;
-}
-.gallery img {
+  }
+  .gallery img {
     display: inline;
-}
-.newsletter input {
+  }
+  .newsletter input {
     width: 50%;
+  }
+  .imgs-one,
+  .imgs-two,
+  .imgs-three,
+  .imgs-four {
+    text-align: center;
+  }
+  .imgs-one img,
+  .imgs-two img,
+  .imgs-three img,
+  .imgs-four img {
+    display: block;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 2%;
+  }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
